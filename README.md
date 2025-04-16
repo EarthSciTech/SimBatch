@@ -36,7 +36,7 @@ History matching & parameter sweeps
 
 Amirsaman Rezaeyan
 
-Postdoctoral Researcher at ETH Zürich, Eawag & Empa
+ETH Zürich, Eawag, & Empa
 
 📍 Zürich, Switzerland
 
