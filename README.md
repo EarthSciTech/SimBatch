@@ -20,7 +20,7 @@ SimBatch is a Python-based batch simulation and evaluation toolkit designed for 
 
 Python 3, NumPy, Pandas, concurrent.futures, subprocess
 
-Compatible with RFD tNavigator 24+ and Eclipse .DATA deck structure
+Compatible with RFD tNavigator and Eclipse .DATA deck structure
 
 🔬 Use Cases:
 
@@ -36,8 +36,6 @@ History matching & parameter sweeps
 
 Amirsaman Rezaeyan
 
-ETH Zürich, Eawag, & Empa
-
-📍 Zürich, Switzerland
+📍 Calgary, Canada
 
 📧 amirsaman[dot]rezaeyan[at sign]gmail[dot]com
