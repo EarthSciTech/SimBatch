@@ -32,7 +32,7 @@ run_concurrent = False  # Set to True for concurrent .DATA file processing
 max_concurrent_runs = 60  # Limit concurrent runs (None for no limit)
 
 # Define the path to the simulator executable file
-sim_executable_path = r"C:\Users\ar2052\AppData\Local\Programs\RFD\tNavigator\24.1\tNavigator-con-v24.1-2826-gba5e7f2.exe"  # Path to tNavigator executable
+sim_executable_path = r"C:\Users\ar\AppData\Local\Programs\RFD\tNavigator\24.1\tNavigator-con-v24.1-2826-gba5e7f2.exe"  # Path to tNavigator executable
 
 # Define the path to the folder containing the input file(s) for the simulations
 input_file_path = r"D:\Amirsaman Rezaeyan\3- Model Realisations"  # Directory containing .DATA files
