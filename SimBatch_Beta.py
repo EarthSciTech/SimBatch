@@ -10,7 +10,7 @@ Key features:
 - Tracks simulation time and logs comprehensive outputs with units and decision variables.
 Prerequisites:
 - Input .DATA files must be compatible with tNavigator or Eclipse; VARIABLES.INC must define decision variables.
-Dependencies: numpy, pandas, subprocess, concurrent.futures, datetime, csv, re (install via pip install numpy pandas).
+Dependencies: numpy, pandas, subprocess, concurrent.futures, datetime, csv, re.
 
 Code by: Amirsaman Rezaeyan, amirsaman[dot]rezaeyan[at sign]gmail[dot]com, Calgary, Canada, Mon Jul  1 12:01:59 2024.
 """
@@ -35,14 +35,14 @@ max_concurrent_runs = 60  # Limit concurrent runs (None for no limit)
 sim_executable_path = r"C:\Users\ar\AppData\Local\Programs\RFD\tNavigator\24.1\tNavigator-con-v24.1-2826-gba5e7f2.exe"  # Path to tNavigator executable
 
 # Define the path to the folder containing the input file(s) for the simulations
-input_file_path = r"D:\Amirsaman Rezaeyan\3- Model Realisations"  # Directory containing .DATA files
+input_file_path = r"D:\..."  # Directory containing .DATA files
 
 # Automatically find all .DATA files in the input_file_path
 input_file_names = [f for f in os.listdir(input_file_path) if f.endswith('.DATA')]  # List all .DATA files
 
 # Define Decision Variables
 # Specify the folder and file name and create the full file path to the VARIABLES.INC file
-variables_file_folder = r"D:\Amirsaman Rezaeyan\3- Model Realisations\INCLUDE\SCHEDULE"  # Directory for VARIABLES.INC
+variables_file_folder = r"...\INCLUDE\SCHEDULE"  # Directory for VARIABLES.INC
 variables_file_name = "VARIABLES.INC"  # Name of variables file
 variables_file = f"{variables_file_folder}/{variables_file_name}"  # Full path to VARIABLES.INC
 
