@@ -1,6 +1,6 @@
 🛠️ SimBatch: Batch Simulation Toolbox for Reservoir Engineers
 
-SimBatch is a Python-based batch simulation and evaluation toolkit designed for reservoir engineers and researchers working with simulators like RFD tNavigator and SLB Eclipse. It enables automated, scalable execution of multiple simulation cases and extracts key performance indicators for comparative analysis and optimization.
+SimBatch is a Python-based batch simulation and evaluation toolkit designed for reservoir engineers and researchers working with simulators like RFD tNavigator and SLB Eclipse. It enables automated, scalable execution of multiple simulation cases and extracts key performance indicators for comparative analysis and optimisation.
 
 ✨ Key Features:
 
@@ -12,7 +12,7 @@ SimBatch is a Python-based batch simulation and evaluation toolkit designed for 
 
 📁 Report generation of end-time and time-series outputs in clean CSV format
 
-🧪 Customizable decision variables via VARIABLES.INC with bounds and units
+🧪 Customisable decision variables via VARIABLES.INC with bounds and units
 
 ⏱️ Parallel execution with user-defined concurrency (optional)
 
@@ -20,7 +20,7 @@ SimBatch is a Python-based batch simulation and evaluation toolkit designed for 
 
 Python 3, NumPy, Pandas, concurrent.futures, subprocess
 
-Compatible with RFD tNavigator and Eclipse .DATA deck structure
+Compatible with RFD tNavigator and SLB Eclipse .DATA deck structure
 
 🔬 Use Cases:
 
@@ -28,9 +28,7 @@ Sensitivity analysis
 
 Scenario comparison
 
-Reservoir development planning
-
-History matching & parameter sweeps
+History matching & optimisation
 
 👨‍🔬 Author
 
