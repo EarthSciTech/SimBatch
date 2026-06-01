@@ -25,9 +25,7 @@ Compatible with RFD tNavigator and SLB Eclipse .DATA deck structure
 Use Cases:
 Sensitivity analysis
 Scenario comparison
-History matching & optimisation
-
-\
+History matching & optimisation\
 
 **Author: Amirsaman Rezaeyan**
 
